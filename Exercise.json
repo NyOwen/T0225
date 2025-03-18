@@ -680,9 +680,186 @@
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "assetStoreId": "0364dbe0c9a504055bcfd65a3e898b58b0cb0aea76c15cc0b9961815b88ba4e6",
+      "name": "GreenButtonWithStoneFrame",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 2,
+        "BottomPadding": 0,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 102,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Green Button With Stone Frame_Hovered.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 348
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 102,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Green Button With Stone Frame_Idle.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 348
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "START",
+          "font": "Roboto-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "START",
+            "font": "Roboto-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 102,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Green Button With Stone Frame_Pressed.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 348
+        }
+      }
+    },
+    {
+      "assetStoreId": "b6e192c68f93de7846e94964878d4edf7b8071a1e295788658c044e70aff7543",
+      "name": "RedButtonWithStoneFrame",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 2,
+        "BottomPadding": 0,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 0,
+          "height": 102,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Red Button With Stone Frame_Hovered.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 348
+        },
+        "Idle": {
+          "bottomMargin": 0,
+          "height": 102,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Red Button With Stone Frame_Idle.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 348
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "EXIT",
+          "font": "Roboto-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "EXIT",
+            "font": "Roboto-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 0,
+          "height": 102,
+          "leftMargin": 0,
+          "rightMargin": 0,
+          "texture": "Red Button With Stone Frame_Pressed.png",
+          "tiled": false,
+          "topMargin": 0,
+          "width": 348
+        }
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "GreenButtonWithStoneFrame"
+      },
+      {
+        "objectName": "RedButtonWithStoneFrame"
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [
@@ -741,12 +918,12 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "ExitButton",
-          "persistentUuid": "554df9c9-ef2f-4326-a47c-ba6d1400eb1b",
+          "layer": "UI",
+          "name": "GreenButtonWithStoneFrame",
+          "persistentUuid": "ae1d96b1-1223-483f-b7a6-3d2cf5ac933c",
           "width": 0,
-          "x": 405,
-          "y": 394,
+          "x": 444,
+          "y": 279,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -757,285 +934,21 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
-          "name": "StartButton",
-          "persistentUuid": "3181da39-944a-4947-9039-472034f67704",
+          "layer": "UI",
+          "name": "RedButtonWithStoneFrame",
+          "persistentUuid": "4dd3c77f-d420-48e4-99fe-5d467a73732b",
           "width": 0,
-          "x": 406,
-          "y": 284,
+          "x": 444,
+          "y": 399,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         }
       ],
-      "objects": [
-        {
-          "assetStoreId": "0364dbe0c9a504055bcfd65a3e898b58b0cb0aea76c15cc0b9961815b88ba4e6",
-          "name": "StartButton",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "LeftPadding": 0,
-            "RightPadding": 0,
-            "PressedLabelOffsetY": 2,
-            "BottomPadding": 0,
-            "TopPadding": 0,
-            "HoveredFadeOutDuration": 0.2
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Green Button With Stone Frame_Hovered.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 348
-            },
-            "Idle": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Green Button With Stone Frame_Idle.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 348
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "Start",
-              "font": "Roboto-Regular.ttf",
-              "textAlignment": "center",
-              "characterSize": 40,
-              "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "Start",
-                "font": "Roboto-Regular.ttf",
-                "textAlignment": "center",
-                "verticalTextAlignment": "top",
-                "characterSize": 40,
-                "color": "255;255;255"
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Green Button With Stone Frame_Pressed.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 348
-            }
-          }
-        },
-        {
-          "assetStoreId": "b6e192c68f93de7846e94964878d4edf7b8071a1e295788658c044e70aff7543",
-          "name": "ExitButton",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "LeftPadding": 0,
-            "RightPadding": 0,
-            "PressedLabelOffsetY": 2,
-            "BottomPadding": 0,
-            "TopPadding": 0,
-            "HoveredFadeOutDuration": 0.2
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Red Button With Stone Frame_Hovered.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 348
-            },
-            "Idle": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Red Button With Stone Frame_Idle.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 348
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "Exit",
-              "font": "Roboto-Regular.ttf",
-              "textAlignment": "center",
-              "characterSize": 40,
-              "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "Exit",
-                "font": "Roboto-Regular.ttf",
-                "textAlignment": "center",
-                "verticalTextAlignment": "top",
-                "characterSize": 40,
-                "color": "255;255;255"
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Red Button With Stone Frame_Pressed.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 348
-            }
-          }
-        },
-        {
-          "assetStoreId": "33302f0b615672a2e96316c096e13ad8d7242adba8bd5709538691894f0eae6e",
-          "name": "BlueButtonWithShadow",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "LeftPadding": 16,
-            "RightPadding": 16,
-            "PressedLabelOffsetY": 3,
-            "BottomPadding": 32,
-            "TopPadding": 32,
-            "HoveredFadeOutDuration": 0.25
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 16,
-              "height": 69,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "Blue Button With Shadow_Hovered.png",
-              "tiled": false,
-              "topMargin": 16,
-              "width": 192
-            },
-            "Idle": {
-              "bottomMargin": 16,
-              "height": 69,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "Blue Button With Shadow_Idle.png",
-              "tiled": false,
-              "topMargin": 16,
-              "width": 192
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "START",
-              "font": "CantoraOne-Regular.ttf",
-              "textAlignment": "center",
-              "characterSize": 40,
-              "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "START",
-                "font": "CantoraOne-Regular.ttf",
-                "textAlignment": "center",
-                "verticalTextAlignment": "top",
-                "characterSize": 40,
-                "color": "255;255;255"
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 16,
-              "height": 69,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "Blue Button With Shadow_Pressed.png",
-              "tiled": false,
-              "topMargin": 16,
-              "width": 192
-            }
-          }
-        }
-      ],
+      "objects": [],
       "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "ExitButton"
-          },
-          {
-            "objectName": "StartButton"
-          },
-          {
-            "objectName": "BlueButtonWithShadow"
-          }
-        ]
+        "folderName": "__ROOT"
       },
       "events": [
         {
@@ -1060,6 +973,15 @@
                 "\"Main\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "GreenButtonWithStoneFrame",
+                ""
+              ]
             }
           ]
         },
@@ -1068,10 +990,10 @@
           "conditions": [
             {
               "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
               },
               "parameters": [
-                "StartButton",
+                "GreenButtonWithStoneFrame",
                 ""
               ]
             }
@@ -1094,10 +1016,10 @@
           "conditions": [
             {
               "type": {
-                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
               },
               "parameters": [
-                "ExitButton",
+                "RedButtonWithStoneFrame",
                 ""
               ]
             }
@@ -1112,11 +1034,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
@@ -1146,6 +1063,39 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "UI",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -1505,8 +1455,8 @@
           "name": "GreenButtonWithStoneFrame",
           "persistentUuid": "fcee2e39-1d68-4c87-b61f-6ef2e2baa7c0",
           "width": 0,
-          "x": 888,
-          "y": 55,
+          "x": 906,
+          "y": 34,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -1525,6 +1475,22 @@
           "x": 30,
           "y": 129,
           "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "UI",
+          "name": "RedButtonWithStoneFrame",
+          "persistentUuid": "daf699da-3c10-4353-a883-b8bbd2ac4774",
+          "width": 0,
+          "x": 903,
+          "y": 148,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3526,174 +3492,6 @@
           }
         },
         {
-          "assetStoreId": "0364dbe0c9a504055bcfd65a3e898b58b0cb0aea76c15cc0b9961815b88ba4e6",
-          "name": "GreenButtonWithStoneFrame",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "LeftPadding": 0,
-            "RightPadding": 0,
-            "PressedLabelOffsetY": 2,
-            "BottomPadding": 0,
-            "TopPadding": 0,
-            "HoveredFadeOutDuration": 0.2
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Green Button With Stone Frame_Hovered.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 348
-            },
-            "Idle": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Green Button With Stone Frame_Idle.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 348
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "START",
-              "font": "Roboto-Regular.ttf",
-              "textAlignment": "center",
-              "characterSize": 40,
-              "color": {
-                "b": 255,
-                "g": 255,
-                "r": 255
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "START",
-                "font": "Roboto-Regular.ttf",
-                "textAlignment": "center",
-                "verticalTextAlignment": "top",
-                "characterSize": 40,
-                "color": "255;255;255"
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 0,
-              "height": 102,
-              "leftMargin": 0,
-              "rightMargin": 0,
-              "texture": "Green Button With Stone Frame_Pressed.png",
-              "tiled": false,
-              "topMargin": 0,
-              "width": 348
-            }
-          }
-        },
-        {
-          "assetStoreId": "b44dba91245ff1ac84a7b450e078194f19321d135fd8a67cd19bc9cb3403fba5",
-          "name": "GreenButton",
-          "type": "PanelSpriteButton::PanelSpriteButton",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "LeftPadding": 16,
-            "RightPadding": 16,
-            "PressedLabelOffsetY": 10,
-            "BottomPadding": 32,
-            "TopPadding": 16,
-            "HoveredFadeOutDuration": 0.25
-          },
-          "childrenContent": {
-            "Hovered": {
-              "bottomMargin": 32,
-              "height": 106,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "Green Button_Hovered.png",
-              "tiled": false,
-              "topMargin": 16,
-              "width": 256
-            },
-            "Idle": {
-              "bottomMargin": 32,
-              "height": 106,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "Green Button_Idle.png",
-              "tiled": false,
-              "topMargin": 16,
-              "width": 256
-            },
-            "Label": {
-              "bold": false,
-              "italic": false,
-              "smoothed": true,
-              "underlined": false,
-              "string": "Button",
-              "font": "",
-              "textAlignment": "center",
-              "characterSize": 60,
-              "color": {
-                "b": 29,
-                "g": 99,
-                "r": 62
-              },
-              "content": {
-                "bold": false,
-                "isOutlineEnabled": false,
-                "isShadowEnabled": false,
-                "italic": false,
-                "outlineColor": "255;255;255",
-                "outlineThickness": 2,
-                "shadowAngle": 90,
-                "shadowBlurRadius": 2,
-                "shadowColor": "0;0;0",
-                "shadowDistance": 4,
-                "shadowOpacity": 127,
-                "smoothed": true,
-                "underlined": false,
-                "text": "Button",
-                "font": "",
-                "textAlignment": "center",
-                "verticalTextAlignment": "top",
-                "characterSize": 60,
-                "color": "62;99;29"
-              }
-            },
-            "Pressed": {
-              "bottomMargin": 16,
-              "height": 106,
-              "leftMargin": 16,
-              "rightMargin": 16,
-              "texture": "Green Button_Pressed.png",
-              "tiled": false,
-              "topMargin": 32,
-              "width": 256
-            }
-          }
-        },
-        {
           "assetStoreId": "",
           "bold": false,
           "italic": false,
@@ -3864,12 +3662,6 @@
             "objectName": "LifeBar"
           },
           {
-            "objectName": "GreenButtonWithStoneFrame"
-          },
-          {
-            "objectName": "GreenButton"
-          },
-          {
             "objectName": "TimeUI"
           },
           {
@@ -3994,6 +3786,14 @@
               },
               "parameters": [
                 "GreenButtonWithStoneFrame"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "RedButtonWithStoneFrame"
               ]
             }
           ]
@@ -4336,6 +4136,15 @@
                 },
                 {
                   "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "RedButtonWithStoneFrame",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "PauseTimer"
                   },
                   "parameters": [
@@ -4470,11 +4279,6 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
@@ -4502,6 +4306,42 @@
               "parameters": [
                 "",
                 "\"Lvl.1\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "EXIT"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+              },
+              "parameters": [
+                "RedButtonWithStoneFrame",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
                 ""
               ]
             }
